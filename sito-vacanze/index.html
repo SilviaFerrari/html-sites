@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Exercice 2-3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <a class="navbar-brand" href="https://github.com/SilviaFerrari/exercises-html">Esercizio</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#1">Stampa 3D</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#2">I materiali</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#3">Futuro</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#4">Stampa 4D</a>
+      </li>
+    </ul>
+  </nav>
+  <div class = "divbody">
+  <div class="container">
+    <a name="1"></a>
+    <h1 class = "h1-holiday">LA STAMPA 3D</h1>
+    <br>
+    <h2 class = "h2-holiday">Cos'è la stampa 3D</h2>
+      <p class = "solid-border"> La stampa 3D, nota anche come produzione additiva, 
+        è un processo con il quale vengono creati oggetti fisici mediante la deposizione 
+        di materiale a strati, partendo da un modello digitale. Tutti i processi di stampa 
+        3D richiedono l'utilizzo congiunto di software, hardware e materiali.
+
+        Grazie alla tecnologia di stampa 3D, è possibile creare qualsiasi oggetto, 
+        da prototipi e parti semplici fino a prodotti finiti altamente tecnici, come parti di aeroplani 
+        (inglese), edifici ecocompatibili, dispositivi medici salvavita e persino organi artificiali 
+        creati utilizzando strati di cellule di origine umana.
+      </p>
+      <div class="row">
+        <div class="col-sm-4 mb20"><img class="img-fluid m-x-auto d-block img-responsive img-thumbnail" src="img/ok.jpg" alt="dancer photo"></div>
+        <div class="col-sm-4 mb20"><img class="img-fluid m-x-auto d-block img-responsive img-thumbnail" src="img/object.jpg" alt="rain photo"></div>
+        <div class="col-sm-4 mb20"><img class="img-fluid m-x-auto d-block img-responsive img-thumbnail" src="img/sla-3d-printer.jpg" alt="pride photo"></div>
+      </div>
+      <br>
+      <a name="2"></a>
+      <h2 class = "h2-holiday">I materiali</h2>
+      <p class = "solid-border"> Ogni anno i materiali usati nella stampa 3D si modificano in base 
+        alle nuove scoperte e alle innovazioni che la tecnologia porta in questo settore. Oggi esiste 
+        un’ampia varietà di materiali utilizzabili dalle stampanti 3D, disponibili in forme differenti 
+        (polvere, filamenti, pallet, granuli, resine, ecc.), che variano a seconda dell’utilizzo che se 
+        ne deve fare. Salvo alcuni modelli di nicchia che usano materiali molto particolari come ceramiche 
+        o paste dentarie, la maggior parte delle stampanti ha standardizzato i suoi materiali.
+      </p>
+      <h2 class = "h2-holiday">ABS e PLA</h2>
+      <p class = "solid-border"> L’ABS ( acrilonitrile-butadiene-stirene ) è un’altra plastica comune utilizzata 
+        per la stampa 3D. È una plastica particolarmente robusta ed è disponibile in una vasta gamma di colori. 
+        L’ABS può essere acquistato in forma filamentosa da una serie di fonti non proprietarie e questo è sicuramente  
+        un altro motivo per cui è così popolare ABS è un termopolimero molto diffuso grazie alla sua leggerezza e 
+        rigidità ma anche al fatto che può essere sia estruso che stampato ad iniezione. Possiede buone proprietà 
+        meccaniche, è meno friabile del PLA e in piu’ sopporta temperature più alte.
+        <br>
+        <br>
+        Il PLA è invece  un materiale plastico biodegradabile. Può essere utilizzato in formato resina per processi 
+        DLP / SL e in forma filamentosa per il processo FDM. Viene offerto in una varietà di colori, tra cui trasparente, 
+        che ha dimostrato di essere un’opzione utile per alcune applicazioni di stampa 3D, anche se  non è resistente o flessibile come l’ABS.
+        <br>
+        <br>
+        Sia l’ABS che il PLA sono polimeri termoplastici, ovvero polimeri formati da catene per lo più lineari, 
+        non legate le une alle altre, non reticolate. Il ciclo riscaldamento-flusso-raffreddamento può essere ripetuto 
+        più volte in quanto la transizione tra lo stato plastico e quello vetroso è di carattere fisico e non chimico, 
+        quindi reversibile. Questo aspetto è molto importante perchè ci fa capire che in realtà il polimero non deve essere 
+        lavorato allo stato fuso ma allo stato di transizione vetrosa il che garantisce la permanenza delle proprietà 
+        meccaniche originarie del materiale, una volta indurito.
+        Questi materiali sono facilmente reperibili sul mercato sotto forma di filamenti colorati o neutri e dal diametro variabile (in genere 3mm o 1.75mm).
+      </p>
+      <!--tabella con i materiali-->
+      <table class = "table">
+        <tr>
+            <th>Material</th>
+            <th>Nozzle</th>
+            <th>Bed</th>
+        </tr>
+        <tr>
+            <td>PLA</td>
+            <td>190-220°</td>
+            <td>45-60°</td>
+        </tr>
+        <tr>
+            <td>ABS</td>
+            <td>220-250°</td>
+            <td>95-110°</td>
+        </tr>
+        <tr>
+            <td>Nylon</td>
+            <td>220-250°</td>
+            <td>70-90°</td>
+        </tr>
+        <tr>
+            <td>ASA</td>
+            <td>220-245°</td>
+            <td>90-110°</td>
+        </tr>
+        <tr>
+            <td>PETG</td>
+            <td>230-250°</td>
+            <td>75-90°</td>
+        </tr>
+        <tr>
+            <td>TPU</td>
+            <td>225-245°</td>
+            <td>45-60°</td>
+        </tr>
+        <tr>
+            <td>PVA</td>
+            <td>185-200°</td>
+            <td>45-60°</td>
+        </tr>
+    </table>
+<div>
+  <a name="3"></a>
+  <h2 class = "h2-holiday">Futuro</h2>
+      <p class = "solid-border"> Non c’è praticamente nessun settore in cui la manipolazione di materia secondo 
+        forme prestabilite e personalizzate non appaia interessante. La stampa 3D ha toccato i primi utilizzi
+         nell’ambito della prototipazione, settore in cui la realizzazione di miniature per progetti e plastici 
+         era stata condizionata dalla manualità. Da qualche anno invece ogni grossa azienda che si rispetti dispone 
+         di una costosa stampante 3D e di un addetto alla prototipazione che, tramite svariati progetti CAD, può 
+         stampare direttamente tutti i componenti dei plastici senza particolari sforzi.
+        
+        Tale concetto sta prendendo ormai piede ovunque, e infatti il settore dell’industria è in netto fermento.
+        Stampare componenti ad hoc è diventata una abitudine in campi come la produzione industriale, la progettazione, 
+        l’ingegneria, l’architettura, il design, l’abbigliamento, l’oggettistica, la medicina, la robotica e l’alimentazione.
+        </p><p class = "solid-border">Nell’ingegneria, come ben immaginerete, la cosa ha preso piede fin da subito.
+         Avere la possibilità di produrre velocemente prototipi di progetti da lanciare su grande scala che rispettino 
+         anche le caratteristiche fisiche dei prodotti non è sicuramente un cosa da poco. Spesso e volentieri la cosa 
+         non si limita alla prototipazione: sono svariati gli studi che hanno sostituito la valanga di sofisticati macchinari 
+         con stampanti 3D adatte alla produzione massiccia di oggetti; basti pensare a Signal, azienda già attiva sul mercato 
+         che stampa snowboard personalizzabili. Lo stesso vale per The Sugar Lab, azienda che realizza oggetti in zucchero che 
+         ha sposato già da tempo la tecnologia di stampa 3D per la realizzazione di particolari sculture dal design “dolce”.</p>
+         <p class = "solid-border">
+        Lo zucchero non è il solo insolito materiale da tavola ad essere stampato, anzi. Sono svariate le aziende che hanno 
+        visto nella stampa 3D un ottimo strumento per realizzare oggetti tramite i propri materiali preferiti. Naturalmente chi
+         più della pasticceria ha tale esigenza? Per realizzare decorazioni in cioccolato esiste infatti un apposito modello 
+         di stampante 3D chiamato Chocolate Choc Creator V1. Questo, prodotto da Choc Edge Limited, consente di produrre in
+          pochi secondi qualsiasi forma proveniente da un modello CAD in fantastiche decorazioni commestibili. La stampante
+           è anche in vendita, ma il prezzo è salato (ironia). Se siete comunque professionisti interessati potete consultare 
+           l’apposita pagina dedicata. 
+      </p>
+<!--link attraverso una list group-->
+    <div class = "inline">
+      <h3>Vantaggi</h3>
+      <div class="list-group">
+        <a href="https://www.stampaprint.net/it/blog/comunicazione/le-nuove-frontiere-della-stampa-4d-e-5d" target="_blank" class="list-group-item list-group-item-action">Molto veloce</a>
+        <a href="https://www.ridble.com/stampa-3d/" target="_blank" class="list-group-item list-group-item-action">Basso costo</a>
+        <a href="https://www.stampa3dstore.com/guida-completa-alle-tecnologie-di-stampa-3d-da-seltek/" target="_blank" class="list-group-item list-group-item-action">Usa energa pulita</a>
+        <a href="https://www.ridble.com/stampa-3d/" target="_blank" class="list-group-item list-group-item-action">Accessibile a tutti</a>
+        <a href="https://www.stampaprint.net/it/blog/comunicazione/le-nuove-frontiere-della-stampa-4d-e-5d" target="_blank" class="list-group-item list-group-item-action">Senza limiti</a>
+      </div>
+    </div>
+<!--list group normale-->
+    <div class = "inline">
+      <h3>Svantaggi</h3>
+      <ul class="list-group">
+        <li class="list-group-item">Costi alti macchinari</li>
+        <li class="list-group-item">Materiali</li>
+        <li class="list-group-item">Da sviluppare</li>
+        <li class="list-group-item">Poco conosciuta</li>
+        <li class="list-group-item">La gente non la sa usare</li>
+      </ul> 
+    </div>
+    <a name="4"></a>
+    <h1 class = "h1-hobby">LA STAMPA 4D</h1>
+    <a name="hobby"></a>
+    <br>
+    <h2 class = "h2-hobby">La dimensione del tempo</h2>
+            <div>
+                <p class = "solid-border">Per quanto concerne la stampa in 4D, la quarta dimensione è quella 
+                  del tempo: i progetti realizzati con una stampante in 4D hanno infatti la capacità di cambiare 
+                  forma nel tempo. In pratica, un oggetto creato in 4D viene stampato come qualsiasi forma realizzata 
+                  con la tecnologia 3D ma utilizzando materiali avanzati e programmabili, in grado di offrire funzionalità 
+                  diverse una volta a contatto con acqua calda, luce o calore. Insomma, un oggetto in 4D cambia forma 
+                  e/o comportamento nel corso tempo. Nel video dimostrativo dei ricercatori del Wyss Institute dell’università 
+                  di Harvard, viene mostrata un’orchidea stampata con inchiostro composito a base di hydrogel che reagisce 
+                  al contatto con l’acqua, simulando fedelmente il movimento di una pianta.
+                  <br>Il campo che riserva sicuramente più aspettative è quello sanitario e dell’healthcare. Attraverso 
+                  la biomedicina si potrà cambiare la vita di chi ha subito un trauma ed è costretto in sedia a rotelle; 
+                  oppure sarà possibile stampare dei materiali organici capaci di adattarsi a contatto con il sangue per cicatrizzare un’emorragia interna.
+                  <br>Tutto spudoratamente copiato da siti.
+
+                </p>
+                <div class="row">
+                    <div class="col-sm-4 mb20"><img class="img-fluid m-x-auto d-block img-responsive img-thumbnail" src="img/ok.jpg" alt="dancer photo"></div>
+                    <div class="col-sm-4 mb20"><img class="img-fluid m-x-auto d-block img-responsive img-thumbnail" src="img/object.jpg" alt="rain photo"></div>
+                    <div class="col-sm-4 mb20"><img class="img-fluid m-x-auto d-block img-responsive img-thumbnail" src="img/sla-3d-printer.jpg" alt="pride photo"></div>
+                </div>
+                <br>
+                <p class = "solid-border">Il campo che riserva sicuramente più aspettative è quello sanitario e dell’healthcare. Attraverso 
+                  la biomedicina si potrà cambiare la vita di chi ha subito un trauma ed è costretto in sedia a rotelle; 
+                  oppure sarà possibile stampare dei materiali organici capaci di adattarsi a contatto con il sangue per cicatrizzare un’emorragia interna.
+                </p>
+                <p>
+                    Lascio qui di seguito i link dei siti consultati per un maggior approfondimento.
+                </p>
+                <a class = "inline" href="https://www.ridble.com/stampa-3d/" target="_blank">Introduzione alla stampa 3D</a>
+                <a class = "inline" href="https://www.simplify3d.com/support/materials-guide/pva/" target="_blank">Guida ai materiali</a>
+                <a class = "inline" href="https://www.stampa3dstore.com/guida-completa-alle-tecnologie-di-stampa-3d-da-seltek/" target="_blank">Guida alle tecnologie</a>
+            </div>
+        </div>   
+      </div> 
+</body>
+</html>
